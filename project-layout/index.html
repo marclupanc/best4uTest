@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Master</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<header class="main-header"></header>
+<section class="body-section">
+    <div class="container">
+        <div class="content">
+            <div class="column">
+                <h1>Get in touch </h1>
+                <p>Fusce ut lectus ultrices, facilisis justo ut, cursus ipsum. Donec ut lorem vel eros tincidunt cursus at a
+                    ante. Fusce pharetra ante nec massa auctor, vitae varius tortor iaculis. Cras eu ante id sem ornare
+                    dapibus.</p>
+            </div>
+
+            <div class="column">
+                <form class="contact-form">
+                    <div class="form-input">
+                        <label for="name">Uw naam *</label>
+                        <input type="text" id="name" >
+                    </div>
+                    <div class="form-input">
+                        <label for="surname">Bedrijfsnaam</label>
+                        <input type="text" id="surname">
+                    </div>
+                    <div class="form-input">
+                        <label for="number">Telefoonnummer *</label>
+                        <input type="number" id="number" >
+                    </div>
+                    <div class="form-input">
+                        <label for="email">E-mail adres *</label>
+                        <input type="text" id="email" >
+                    </div>
+                    <div class="form-input">
+                        <label for="message">E-mail adres *</label>
+                        <textarea id="message" ></textarea>
+                    </div>
+                    <div class="form-input">
+                        <input type="submit" class="submit-button" value="Verzenden">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="content">
+    <div id="map">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://yt2.org"></a><br>
+                <style>.mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 100%;
+                }</style>
+                <style>.gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 100%;
+                }</style>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer"></footer>
+</div>
+</body>
+</html>

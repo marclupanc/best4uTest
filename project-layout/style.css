@@ -1,0 +1,112 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.main-header {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+    background-image: url("img/undraw.png");
+    margin-top: -5px;
+}
+
+/***********************************************************************
+ *  Content
+ **********************************************************************/
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.body-section .content {
+    display: inline-flex;
+    flex-direction: row;
+    min-height: 350px;
+    padding: 50px 0;
+}
+
+.body-section .content .column{
+    width: 50%;
+}
+
+.contact-form {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-form .form-input {
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+
+.contact-form .form-input:nth-child(5),
+.contact-form .form-input:last-child {
+    width: 94%;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.contact-form .form-input:last-child {
+    margin-top: 0;
+}
+
+.contact-form .form-input input,
+.contact-form .form-input textarea{
+    background: #F2F2F2;
+    border: none;
+    width: 82%;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.contact-form .form-input textarea{
+    min-height: 128px;
+    resize: none;
+}
+
+.contact-form .form-input label {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+
+.contact-form .form-input .submit-button {
+    background: #27AE60;
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    max-width: 150px;
+    display: inline-block;
+}
+
+/***********************************************************************
+ *  map
+ **********************************************************************/
+
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #F2F2F2;
+}
+
+
